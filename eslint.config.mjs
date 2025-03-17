@@ -1,21 +1,3 @@
-let newUser; 
-let id_user; 
-let deleteUser; 
-
-function createUser(userData) {
-    newUser = userData;
-    console.log("Создан новый пользователь:", newUser);
-}
-
-function removeUser(id) {
-    id_user = id;
-    deleteUser = true; 
-    console.log("Пользователь удален с ID:", id_user);
-}
-
-createUser({ name: "Макеева Екатерина" });
-removeUser(123);
-
 import globals from 'globals';
 import pluginJs from '@eslint/js';
 
