@@ -19,6 +19,12 @@ export default [
     rules: {
       'no-unused-vars': 'warn',
       'no-undef': 'error',
+      'eqeqeq': ['error', 'always'], // Использует строгое равенство
+      'curly': 'error', // Обязывает использовать фигурные скобки
+      'semi': ['error', 'always'], // Обязывает ставить точку с запятой
+      'quotes': ['error', 'single'], // Используйет одинарные кавычки
+      'no-console': 'warn', // Предупреждает о использовании console.log
+      'consistent-return': 'error', // Обязывает возвращать значение из всех функций
     },
   },
 ];
